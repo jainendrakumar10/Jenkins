@@ -1,0 +1,4 @@
+---
+- name: ensure Java is installed.
+  yum: "name={{ item }} state=installed"
+  with_items: "{{ __java_packages }}"
