@@ -9,6 +9,8 @@ Add below line into /etc/sudoers on target machine after "Same thing without a p
 
 jainendra ALL=(ALL) NOPASSWD: ALL
 
+Open the 8080 port on the target machine by going into /etc/sysconfig/iptables
+
 # Dependencies
 
 Java
